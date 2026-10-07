@@ -1,10 +1,13 @@
 # 🎙️ Speech Emotion Detection from Audio
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://speech-detection-emotion.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B.svg)](https://streamlit.io/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B.svg)](https://speech-detection-emotion.streamlit.app/)
 [![Scikit-Learn](https://img.shields.io/badge/scikit--learn-v1.0%2B-orange.svg)](https://scikit-learn.org/)
 [![Librosa](https://img.shields.io/badge/Librosa-Audio%20Processing-green.svg)](https://librosa.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+> 🚀 **Live Demo:** Try the deployed web application here: **[https://speech-detection-emotion.streamlit.app/](https://speech-detection-emotion.streamlit.app/)**
 
 An end-to-end Machine Learning web application that predicts human emotions from speech audio recordings in real time. Built with **Streamlit**, **Librosa**, and **Scikit-learn**, the application extracts acoustic MFCC features from speech clips and classifies them into distinct emotional states with confidence scores, waveform plots, and Mel-spectrogram visualizations.
 
@@ -162,7 +165,14 @@ pip install -r requirements.txt
 
 ## 8. How to Run the Project
 
-### Running the Streamlit Web App
+### Option A: Access the Live Deployment (No Setup Required)
+You can test the application directly in your browser without installing anything locally:
+👉 **[speech-detection-emotion.streamlit.app](https://speech-detection-emotion.streamlit.app/)**
+
+---
+
+### Option B: Running Locally
+
 Launch the interactive dashboard with:
 ```bash
 streamlit run app.py
