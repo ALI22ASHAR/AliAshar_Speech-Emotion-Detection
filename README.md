@@ -209,15 +209,6 @@ Speech-Emotion-Detection/
 - Input audio must be in **WAV** format.
 - For best results, use clips of **2 to 5 seconds** containing clear speech with minimal background noise.
 - If using stereo audio, Librosa automatically converts it to mono during feature extraction.
-
-### Making the GitHub Repository Public:
-If your repository is currently private, make it public by following these steps:
-1. Go to your repository on GitHub: `https://github.com/ALI22ASHAR/Speech-Emotion-Detection`
-2. Click on **Settings** (tab at the top right of the repo).
-3. Scroll down to the bottom **Danger Zone** section.
-4. Under **Change repository visibility**, click **Change visibility** ➔ Select **Make public**.
-5. Confirm the selection to ensure your repository is accessible to everyone.
-
 ---
 
 ## 📄 License
